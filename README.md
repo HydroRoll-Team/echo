@@ -6,4 +6,16 @@
 >>>
 >>>
 
-Echo 标准(<img width="40" src="https://mirror.ghproxy.com/https://github.com/HydroRoll-Team/echo/blob/main/assets/ES-white.svg">)是一种用于定义和描述不同平台之间的事件交互和同步的标准规范，它的名字的意象是事件在不同平台之间的回响，表示事件的一致性和同步性。它的名字的意义是事件的沟通和协调，表示标准的目的和价值。
+### 介绍
+
+`Echo` 标准(<img width="40" src="https://mirror.ghproxy.com/https://github.com/HydroRoll-Team/echo/blob/main/assets/ES-white.svg">)是一种用于定义和描述不同平台之间的事件交互和同步的标准规范，它的名字的意象是事件在不同平台之间的回响，表示事件的一致性和同步性。它的名字的意义是事件的沟通和协调，表示标准的目的和价值。
+
+标准预览: https://echo.hydroroll.team/ ，开发预览: https://echo.hydroroll.team/dev/ 。
+
+### 背景
+
+文字跑团(TRPG)游戏是一种基于文字描述和角色扮演的桌上游戏，通常由一个游戏主持人(KP)和多个玩家(PC)组成，通过网络平台进行交流和互动。不同的平台可能有不同的功能和限制，比如群聊、频道、图片、音频甚至视频等，这些都会影响到游戏的体验和效果。为了让水系的文字跑团游戏能够跨平台运行，ES 规定了游戏的**基本逻辑、数据结构、接口定义、错误处理**等。这样，水系用户的 TRPG 游戏就可以**在不同的平台上实现相同或相似的功能**，同时也可以方便模型或规则包或插件开发者进行扩展和定制。
+
+### 贡献
+
+欢迎查看[CONTRIBUTING](https://github.com/HydroRoll-Team/echo/blob/main/CONTRIBUTING.md)。
