@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Echo</h1>
-  >> Event Communication and Harmonization across Online platforms.
+  <i><b>E</b>vent <b>C</b>ommunication and<b>H</b>armonization across <b>O</b>nline platforms.</i>
 </div>
 
 >>>
