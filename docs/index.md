@@ -1,6 +1,6 @@
 # 一、Echo 规范
 
-ECHO 1.0.0 是 Echo 规范的第一个投入生产环境的版本，而 Echo 是水系规定 HydroRoll 与 infini 之间事件传参类型的一个内部标准，全称 Event Communication and Harmonization across Online platforms。
+ES 1.0.0 是 Echo 规范的第一个投入生产环境的版本，而 Echo 是水系规定 HydroRoll 与 infini 之间事件传参类型的一个内部标准，全称 Event Communication and Harmonization across Online platforms。
 
 ## 1.1 版本 1.0.0
 
