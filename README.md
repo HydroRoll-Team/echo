@@ -20,49 +20,11 @@ Echo 标准包括以下几个方面：
 
 示例:
 
-```json
-{
-  "event": {
-    "type": "join",
-    "source": "user1",
-    "target": "all",
-    "data": {
-      "name": "Alice",
-      "role": "PC"
-    }
-  },
-  "api": {
-    "path": "/event",
-    "method": "POST",
-    "parameters": {
-      "event": {
-        "type": "object",
-        "required": true
-      }
-    },
-    "responses": {
-      "200": {
-        "status": "success",
-        "code": 0,
-        "message": "OK",
-        "data": null
-      },
-      "400": {
-        "status": "error",
-        "code": 1001,
-        "message": "Bad Request",
-        "tip": "请输入正确的事件类型"
-      }
-    }
-  },
-  "error": {
-    "type": "400",
-    "code": 1001,
-    "message": "Bad Request",
-    "tip": "请输入正确的事件类型"
-  }
-}
-```
+| Workflow | Event |
+| :------: | :---: |
+| event_name | str |
+| event_paras | dict |
+
 
 ### 特性
 
