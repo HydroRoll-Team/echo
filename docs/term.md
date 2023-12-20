@@ -40,12 +40,12 @@ Node(节点) 描述 ES 的实现端，这是它们的统一称谓。同时，通
 
 ### Event
 
-Event(事件)作用于从 World 侧转发端(例如 HydroRoll)传过来的一切以及将要从 ES 实现端(例如 HydroRol 或 Infini)发出(必须有响应)的一切。事件划分为 Specific-events(具体事件，例如消息事件、世界人数增减事件等) 与 Abstract-events(抽象事件，例如工作流事件、回调事件等)。具体可翻阅事件一览表[Events.md](./Events.md) 查看所有 ES 1.0 所支持的事件。
+Event(事件)作用于从 World 侧转发端(例如 HydroRoll)传过来的一切以及将要从 ES 实现端(例如 HydroRol 或 Infini)发出(必须有响应)的一切。事件划分为 Specific-events(具体事件，例如消息事件、世界人数增减事件等) 与 Abstract-events(抽象事件，例如工作流事件、回调事件等)。具体可翻阅事件一览表[Events.md](./Event.md) 查看所有 ES 1.0 所支持的事件。
 
 
 ### Element
 
-Element(元素)尤其指代包含在 Events 中的各类可以被抽象出来的概念，比如文本(Text)、图片(Image)、富文本(RichText)、音频(Audio)、视频(Vedio)等。具体可翻阅元素列表 [Elements.md](./Elements.md) 查看所有 ES 1.0 所定义的元素。
+Element(元素)尤其指代包含在 Events 中的各类可以被抽象出来的概念，比如文本(Text)、图片(Image)、富文本(RichText)、音频(Audio)、视频(Vedio)等。具体可翻阅元素列表 [Elements.md](./Element.md) 查看所有 ES 1.0 所定义的元素。
 
 
 ### API
