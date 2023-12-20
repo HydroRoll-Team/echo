@@ -26,9 +26,9 @@
 狭义上讲，一个 World 应该在一段时间内只保持(也必须保持)一个规则包的绑定，因此类似于秘密团那样临时创建的分群或分频道并不能说是一个标准的 World，这类窗口我们称为 Sub-world(子世界)，因此当涉及到 Sub-world 时，我们不能说主群/主频道是一个 World，而应该说是 Main-world(主世界)。
 
 
-### Nodes
+### Node
 
-Nodes(节点) 描述 ES 的实现端，这是它们的统一称谓。同时，通过 ES 所规定的 Events 传递的方向，可以扩展称为 1号节点(Node-1)、2号节点(Node-2) 甚至 3号节点(Node-3)、四号节点(Node4)...但是一般来说，两个节点已经足够使用了，Events 的传递方向总是由数字小的节点传递到数字大的节点再传回原数字较小的节点，这被成为一套完整的 pipeline。
+Node(节点) 描述 ES 的实现端，这是它们的统一称谓。同时，通过 ES 所规定的 Events 传递的方向，可以扩展称为 1号节点(Node-1)、2号节点(Node-2) 甚至 3号节点(Node-3)、四号节点(Node4)...但是一般来说，两个节点已经足够使用了，Events 的传递方向总是由数字小的节点传递到数字大的节点再传回原数字较小的节点，这被成为一套完整的 pipeline。
 
 
 ### Pipeline
@@ -38,14 +38,14 @@ Nodes(节点) 描述 ES 的实现端，这是它们的统一称谓。同时，�
 总之，一个 pipeline，一定是完整的，但不一定是闭合的。
 
 
-### Events
+### Event
 
-Events(事件)作用于从 World 侧转发端(例如 HydroRoll)传过来的一切以及将要从 ES 实现端(例如 HydroRol 或 Infini)发出(必须有响应)的一切。事件划分为 Specific-events(具体事件，例如消息事件、世界人数增减事件等) 与 Abstract-events(抽象事件，例如工作流事件、回调事件等)。具体可翻阅事件一览表[Events.md](./Events.md) 查看所有 ES 1.0 所支持的事件。
+Event(事件)作用于从 World 侧转发端(例如 HydroRoll)传过来的一切以及将要从 ES 实现端(例如 HydroRol 或 Infini)发出(必须有响应)的一切。事件划分为 Specific-events(具体事件，例如消息事件、世界人数增减事件等) 与 Abstract-events(抽象事件，例如工作流事件、回调事件等)。具体可翻阅事件一览表[Events.md](./Events.md) 查看所有 ES 1.0 所支持的事件。
 
 
-### Elements
+### Element
 
-Elements(元素)尤其指代包含在 Events 中的各类可以被抽象出来的概念，比如文本(Text)、图片(Image)、富文本(RichText)、音频(Audio)、视频(Vedio)等。具体可翻阅元素列表 [Elements.md](./Elements.md) 查看所有 ES 1.0 所定义的元素。
+Element(元素)尤其指代包含在 Events 中的各类可以被抽象出来的概念，比如文本(Text)、图片(Image)、富文本(RichText)、音频(Audio)、视频(Vedio)等。具体可翻阅元素列表 [Elements.md](./Elements.md) 查看所有 ES 1.0 所定义的元素。
 
 
 ### API
