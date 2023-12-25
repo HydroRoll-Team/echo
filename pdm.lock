@@ -5,7 +5,7 @@
 groups = ["default", "docs", "mkdocs-alabaster"]
 strategy = ["cross_platform"]
 lock_version = "4.4"
-content_hash = "sha256:08a0367f01436ef63b1adfb182a3b50f6c0986ff4753c49dc259330e637ac774"
+content_hash = "sha256:9224faedd29e6bdbbf5b750cef41959ec63ee613c44527b591bab082f226864c"
 
 [[package]]
 name = "babel"
@@ -549,15 +549,6 @@ dependencies = [
 files = [
     {file = "mkdocs-moonstone-0.2.0.tar.gz", hash = "sha256:777aa82a99d5e407dee4540d7d28bdd68de795c9934be814c63477f3ba08201d"},
     {file = "mkdocs_moonstone-0.2.0-py3-none-any.whl", hash = "sha256:0ed87fb5e343de0b1c285589f36678723d040cd07671602633d67be637cb4696"},
-]
-
-[[package]]
-name = "mkdocs-theme-topdf"
-version = "0.5.0"
-summary = "a mkdocs theme for generate pdf or printing"
-files = [
-    {file = "mkdocs-theme-topdf-0.5.0.tar.gz", hash = "sha256:5c98aa81ed45649654b715609079a80836180b99b94e6b2a811a765d14e9550b"},
-    {file = "mkdocs_theme_topdf-0.5.0-py3-none-any.whl", hash = "sha256:a0d08fa6e9e8036be39438d7b0328b92cef6522f9719eec1af7e7402f1383810"},
 ]
 
 [[package]]
