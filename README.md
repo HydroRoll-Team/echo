@@ -40,4 +40,4 @@ Echo 标准包括以下几个方面：
 
 ### 贡献
 
-欢迎查看[CONTRIBUTING](https://github.com/HydroRoll-Team/echo/blob/main/CONTRIBUTING.md)。
+欢迎查看[CONTRIBUTING.md](https://github.com/HydroRoll-Team/echo/blob/main/CONTRIBUTING.md)。
