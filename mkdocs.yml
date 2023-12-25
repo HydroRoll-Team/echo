@@ -8,6 +8,9 @@ theme:
   hljs_languages:
     - yaml
     - rust
+    - json
+    - python
+    - toml
 
 repo_url: https://github.com/HydroRoll-Team/echo
 edit_uri: blob/main/docs/
