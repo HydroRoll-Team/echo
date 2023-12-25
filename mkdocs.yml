@@ -1,0 +1,39 @@
+site_name: Echo Standard
+site_description: Event Communication and Harmonization across Online platforms
+site_url: https://echo.hydroroll.team
+
+theme:
+  name: windmill-dark # alabaster
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - rust
+
+repo_url: https://github.com/HydroRoll-Team/echo
+edit_uri: blob/main/docs/
+
+site_author: Hsiang Nianian
+copyright: 2023 HydroRoll-Team
+
+extra:
+  version: 1.0
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      separator: "_"
+
+hooks:
+  - scripts/hooks.py
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Contents:
+      - Term.md
+      - Event.md
+      - Element.md
+  - Resources:
+      - API.md

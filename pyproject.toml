@@ -1,0 +1,24 @@
+[project]
+name = "echo"
+version = "1.0"
+description = "Event Communication and Harmonization across Online platforms"
+authors = [
+    {name = "简律纯",email = "i@jyunko.cn"},
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool]
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+docs = [
+    "mkdocs>=1.5.3",
+    "mkdocs-windmill-dark>=0.2.0",
+    "mkdocs-alabaster>=0.8.0",
+    "mkdocs-moonstone>=0.2.0",
+    "lantana>=2.7.7.4",
+    "mkdocs-theme-topdf>=0.5.0",
+]
+mkdocs-alabaster = []

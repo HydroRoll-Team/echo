@@ -1,8 +1,12 @@
-# ES 1.0
+---
+title: API Reference
+---
 
-## API
+## ES 1.0
 
-### 1. `get_version`
+### API
+
+#### 1. `get_version`
 
 | Method | field | type | notes |
 | :-: | :-: | :--: | :----: |
