@@ -3,7 +3,7 @@ site_description: Event Communication and Harmonization across Online platforms
 site_url: https://echo.hydroroll.team
 
 theme:
-  name: windmill-dark # alabaster
+  name: alabaster
   highlightjs: true
   hljs_languages:
     - yaml
