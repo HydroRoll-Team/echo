@@ -1,2 +1,2 @@
 mkdocs>=1.5.3
-mkdocs-windmill-dark>=0.2.0
+mkdocs-alabaster
