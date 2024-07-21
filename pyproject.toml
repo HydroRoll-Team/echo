@@ -5,7 +5,9 @@ description = "Event Communication and Harmonization across Online platforms"
 authors = [
     {name = "简律纯",email = "i@jyunko.cn"},
 ]
-dependencies = []
+dependencies = [
+    "requests>=2.31.0",
+]
 requires-python = ">=3.11"
 readme = "README.md"
 license = {text = "MIT"}

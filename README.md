@@ -6,7 +6,7 @@
 >>>
 >>>
 
-### 介绍 <img width="80" align="right" src="https://github.com/HydroRoll-Team/echo/blob/main/assets/echo.jpg">
+### 介绍 <img width="80" align="right" src="https://github.com/HydroRoll-Team/echo/blob/main/docs/_static/echo.jpg">
 
 `Echo` 标准是一种用于定义和描述不同平台之间的事件交互和同步的标准规范，它的名字的意象是事件在不同平台之间的回响，表示事件的一致性和同步性。它的名字的意义是事件的沟通和协调，表示标准的目的和价值。
 
