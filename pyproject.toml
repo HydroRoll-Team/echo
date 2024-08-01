@@ -16,7 +16,11 @@ license = {text = "MIT"}
 [tool.pdm]
 [tool.pdm.dev-dependencies]
 docs = [
-    "mkdocs>=1.5.3",
-    "mkdocs-alabaster",
+    "furo>=2024.7.18",
+    "sphinx-autobuild>=2024.4.16",
+    "myst-parser>=3.0.1",
+    "sphinx>=7.4.7",
+    "tomli>=2.0.1",
+    "sphinx-intl>=2.2.0",
+    "sphinx-design>=0.6.0",
 ]
-mkdocs-alabaster = []
